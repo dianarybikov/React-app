@@ -1,12 +1,15 @@
-
+import {Component} from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+class  App extends Component {
+  redner() {
 
-    </div>
-  );
-}
+    return (
+      <div className="App">
+  
+      </div>
+    );
+  }
+  }
 
 export default App;
